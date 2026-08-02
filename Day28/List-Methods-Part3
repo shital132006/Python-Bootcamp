@@ -1,0 +1,48 @@
+# copy()
+
+fruits = ["Apple", "Banana", "Mango"]
+
+new_fruits = fruits.copy()
+
+print(new_fruits)
+
+# Output:
+# ['Apple', 'Banana', 'Mango']
+
+
+# extend()
+
+list1 = [10, 20]
+
+list2 = [30, 40]
+
+list1.extend(list2)
+
+print(list1)
+
+# Output:
+# [10, 20, 30, 40]
+
+
+# List Concatenation (+)
+
+list1 = [10, 20]
+
+list2 = [30, 40]
+
+result = list1 + list2
+
+print(result)
+
+# Output:
+# [10, 20, 30, 40]
+
+
+# List Repetition (*)
+
+letters = ["A", "B"]
+
+print(letters * 3)
+
+# Output:
+# ['A', 'B', 'A', 'B', 'A', 'B']
