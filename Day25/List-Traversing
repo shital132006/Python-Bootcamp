@@ -1,0 +1,22 @@
+# Program 1 - Traversing a List
+
+cities = ["Mumbai", "Pune", "Delhi"]
+
+for city in cities:
+    print(city)
+
+# Program 2 - append()
+
+numbers = [10, 20, 30]
+
+numbers.append(40)
+
+print(numbers)
+
+# Program 3 - insert()
+
+numbers = [10, 20, 40]
+
+numbers.insert(2, 30)
+
+print(numbers)
