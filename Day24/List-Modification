@@ -1,0 +1,23 @@
+# Program 1
+
+colors = ["Red", "Blue", "Green"]
+
+colors[1] = "Yellow"
+
+print(colors)
+
+# Program 2
+
+cities = ["Mumbai", "Pune", "Delhi"]
+
+cities[2] = "Chennai"
+
+print(cities)
+
+# Program 3
+
+marks = [75, 80, 90]
+
+marks[0] = 95
+
+print(marks)
