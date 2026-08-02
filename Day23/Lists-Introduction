@@ -1,0 +1,17 @@
+# Creating Lists
+
+cities = ["Mumbai", "Pune", "Delhi"]
+
+print(cities)
+
+# Accessing Elements
+
+print(cities[0])
+print(cities[1])
+print(cities[2])
+
+# Length of List
+
+numbers = [10, 20, 30, 40]
+
+print(len(numbers))
