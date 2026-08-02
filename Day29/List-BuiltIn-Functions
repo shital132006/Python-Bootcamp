@@ -1,0 +1,48 @@
+# min()
+
+marks = [78, 92, 65, 81]
+
+print(min(marks))
+
+# Output:
+# 65
+
+
+# max()
+
+marks = [78, 92, 65, 81]
+
+print(max(marks))
+
+# Output:
+# 92
+
+
+# sum()
+
+marks = [78, 92, 65, 81]
+
+print(sum(marks))
+
+# Output:
+# 316
+
+
+# Membership Operator (in)
+
+cities = ["Mumbai", "Pune", "Delhi"]
+
+print("Pune" in cities)
+
+# Output:
+# True
+
+
+# Membership Operator (not in)
+
+cities = ["Mumbai", "Pune", "Delhi"]
+
+print("Chennai" not in cities)
+
+# Output:
+# True
