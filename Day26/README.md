@@ -14,4 +14,4 @@
 
 ## Files
 
-- `practice.py` → Contains all Python programs for today's topics.
+- `List-Methods-Part1` → Contains all Python programs for today's topics.
