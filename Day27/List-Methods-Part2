@@ -1,0 +1,30 @@
+# index()
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print(fruits.index("Mango"))
+
+# Output:
+# 2
+
+
+# count()
+
+numbers = [10, 20, 10, 30, 10, 40]
+
+print(numbers.count(10))
+
+# Output:
+# 3
+
+
+# reverse()
+
+letters = ["A", "B", "C", "D"]
+
+letters.reverse()
+
+print(letters)
+
+# Output:
+# ['D', 'C', 'B', 'A']
