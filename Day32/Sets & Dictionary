@@ -1,0 +1,27 @@
+# Day 32 - Sets & Dictionary
+
+# Sets - Introduction
+numbers = {10, 20, 30, 20, 40, 10}
+print(numbers)
+
+# Set Methods
+cities = {"Mumbai", "Pune"}
+cities.add("Delhi")
+print(cities)
+
+cities.discard("Pune")
+print(cities)
+
+# Dictionary - Introduction
+employee = {
+    "name": "Priya",
+    "salary": 45000,
+    "department": "Sales"
+}
+
+print(employee)
+
+# Accessing Dictionary Values
+print(employee["name"])
+print(employee["salary"])
+print(employee.get("age"))
