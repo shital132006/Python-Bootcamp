@@ -1,0 +1,11 @@
+# Day 30 - Nested Lists
+
+employees = [
+    ["Rahul", 30000],
+    ["Priya", 45000],
+    ["Amit", 38000],
+    ["Neha", 50000]
+]
+
+for employee in employees:
+    print("Employee:", employee[0], "| Salary:", employee[1])
