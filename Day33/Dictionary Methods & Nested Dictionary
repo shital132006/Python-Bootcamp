@@ -1,0 +1,52 @@
+# Day 33 - Dictionary Methods & Nested Dictionary
+
+employees = {
+    "emp1": {
+        "name": "Rahul",
+        "salary": 30000,
+        "department": "HR"
+    },
+    "emp2": {
+        "name": "Priya",
+        "salary": 45000,
+        "department": "Sales"
+    },
+    "emp3": {
+        "name": "Amit",
+        "salary": 38000,
+        "department": "Finance"
+    },
+    "emp4": {
+        "name": "Neha",
+        "salary": 50000,
+        "department": "IT"
+    }
+}
+
+# Dictionary Methods
+print(employees.keys())
+print(employees.values())
+print(employees.items())
+
+# Nested Dictionary - Accessing Values
+print(employees["emp1"]["name"])
+print(employees["emp2"]["salary"])
+print(employees["emp2"]["department"])
+
+# Salary List
+salaries = []
+
+for employee in employees:
+    salaries.append(employees[employee]["salary"])
+
+print("Highest Salary:", max(salaries))
+print("Lowest Salary:", min(salaries))
+
+# Employee Details
+for employee in employees:
+    data = employees[employee]
+    print(
+        "Employee:", data["name"],
+        "| Salary:", data["salary"],
+        "| Department:", data["department"]
+    )
